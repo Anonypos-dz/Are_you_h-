@@ -1,0 +1,66 @@
+html{
+    cursor: url(cursor.png), auto;
+}
+body{
+    background-color: #F7B2D8;
+    font-family: 'Markazi Text';
+    
+}
+div:hover{
+    cursor: url(pointer.png), pointer;
+}
+#hello{
+    font-size: 10vw;
+    text-align: center;
+    color: #F60588;
+}
+#hello:hover{
+    color: wheat
+}
+#hdl:hover{
+    color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.options{
+    
+    height: 30vw;
+    width: 30vw;
+    background-color: #010A08;
+    border-radius: 2vw;
+    transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out, border-color 0.3s ease-in-out, border-width 0.5s ease-in-out, border-style 0.5s ease-in-out, font-size 0.3s ease-in-out;
+    border-color: #F60588;
+    border-style: solid;
+    border-width: 0.5vw;
+    margin: 2vw;
+    font-size: 3vw;
+}
+.options:hover{
+    background-color: #F60588;
+    width: 32vw;
+    border-style: dashed;
+    border-color:#010A08;
+    border-width: 0.2vw;
+    font-size: 4vw;
+}
+.option_name{
+    
+    color: white;
+    text-align: center;
+
+}
+.option_img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 10vw;
+    transition: width 0.3s ease-in-out;
+    
+}
+.option_img:hover{
+    width: 12vw;
+}
