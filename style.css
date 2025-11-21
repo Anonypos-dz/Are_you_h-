@@ -1,0 +1,208 @@
+html{
+    cursor: url(cursor.png), auto;
+}
+body{
+    background-color: #F7B2D8;
+    font-family: 'Markazi Text';
+
+    
+}
+div:hover{
+    cursor: url(pointer.png), pointer;
+}
+button:hover{
+    cursor: url(pointer.png), pointer;
+}
+#hello{
+    font-size: 10vw;
+    text-align: center;
+    color: #F60588;
+}
+#hello:hover{
+    color: wheat
+}
+#hdl:hover{
+    color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 0.5vw;
+    flex-wrap: nowrap;
+}
+.options{
+    
+    height: 30vw;
+    width: 30vw;
+    background-color: #010A08;
+    border-radius: 2vw;
+    transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out, border-color 0.3s ease-in-out, border-width 0.5s ease-in-out, border-style 0.5s ease-in-out, font-size 0.3s ease-in-out;
+    border-color: #F60588;
+    border-style: solid;
+    border-width: 0.5vw;
+    font-size: 3vw;
+}
+.options:hover{
+    background-color: #F60588;
+    width: 32vw;
+    border-style: dashed;
+    border-color:#010A08;
+    border-width: 0.2vw;
+    font-size: 4vw;
+}
+.option_name{
+    
+    color: white;
+    text-align: center;
+
+}
+.option_img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 10vw;
+    transition: width 0.3s ease-in-out;
+    
+}
+.option_img:hover{
+    width: 12vw;
+}
+#header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#sec{
+    margin-top: 0px;
+    font-size: 10vw;
+    color: #F60588;
+}
+#home{
+    height: auto;
+    position: absolute;
+    left: 2vw;
+    width: 7vw;
+    cursor: url("pointer.png"), auto;
+    transition: width 0.3s ease-in-out;
+}
+#home:hover{
+    width: 10vw;
+}
+.book{
+    margin: 2vw;
+    height: 40vw;
+    width: 25vw;
+    background-color: #010A08;
+    border-color: #F60588;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out, border-color 0.3s ease-in-out, border-width 0.5s ease-in-out, border-style 0.5s ease-in-out, font-size 0.3s ease-in-out;
+}
+.book:hover{
+    width: 30vw;
+    height: 45vw;
+    background-color: #F60588;
+    border-color:#010A08;
+    border-style: dashed;
+    border-width: 0.2vw;
+    font-size: 2.5vw;
+}
+.book_name{
+    color: aliceblue;
+    text-align: center;
+    
+}
+.book_img{
+    display: block;
+    object-fit: cover;
+    height: 25vw;
+    width: 18.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1vw;
+    transition: width 0.5s ease-in-out;
+}
+.book_img:hover{
+    width: 20vw;
+}
+.book_author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+    color: white;
+    opacity: 0.7;
+}
+.book_title{
+    text-align: center;
+    color:#F60588;
+    font-size: 10vw;
+    margin-top: 0;
+}
+#back{
+    height: auto;
+    width: 8vw;
+    position: absolute;
+    left: 9vw;
+    cursor: url("pointer.png"), auto;
+    transition: width 0.3s ease-in-out;
+}
+#back:hover{
+    width: 10vw;
+}
+.book_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010A08;
+    height: 50vw;
+    width: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 2vw;
+    border-style: dashed;
+    border-color: #F60588;
+    border-width: 0.3vw;
+
+}
+.book_download{
+    position: absolute;
+    bottom: 9vw;
+    align-self: center;
+    padding: 1vw;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    border-radius: 1vw;
+    border-style: none;
+    font-family: 'Markazi Text';
+    font-size: 3vw;
+    transition: all 0.3s ease-in-out;
+    
+}
+.book_download:hover{
+    background: white;
+    color:#F60588;
+}
+#cover{
+    position: absolute;
+    bottom: 17vw;
+}
+.book_read{
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    position: absolute;
+    bottom: 2vw;
+    padding: 1vw;
+    font-size: 3vw;
+    border-radius: 1vw;
+    font-family: 'Markazi Text';
+    border-style: none;
+    transition: all 0.3s ease-in-out;
+}
+.book_read:hover{
+    background: linear-gradient(to right, #8e9eab, #eef2f3);;
+}
