@@ -1,14 +1,9 @@
 html{
-    cursor: url(cursor.png), auto;
+    cursor: url("cursor.png"), auto;
 }
 body{
     background-color: #F7B2D8;
     font-family: 'Markazi Text';
-
-    
-}
-div:hover{
-    cursor: url(pointer.png), pointer;
 }
 button:hover{
     cursor: url(pointer.png), pointer;
@@ -33,7 +28,6 @@ button:hover{
     flex-wrap: nowrap;
 }
 .options{
-    
     height: 30vw;
     width: 30vw;
     background-color: #010A08;
@@ -53,7 +47,7 @@ button:hover{
     font-size: 4vw;
 }
 .option_name{
-    
+
     color: white;
     text-align: center;
 
@@ -65,7 +59,7 @@ button:hover{
     height: auto;
     width: 10vw;
     transition: width 0.3s ease-in-out;
-    
+
 }
 .option_img:hover{
     width: 12vw;
@@ -115,7 +109,7 @@ button:hover{
 .book_name{
     color: aliceblue;
     text-align: center;
-    
+
 }
 .book_img{
     display: block;
@@ -182,7 +176,7 @@ button:hover{
     font-family: 'Markazi Text';
     font-size: 3vw;
     transition: all 0.3s ease-in-out;
-    
+
 }
 .book_download:hover{
     background: white;
@@ -205,4 +199,117 @@ button:hover{
 }
 .book_read:hover{
     background: linear-gradient(to right, #8e9eab, #eef2f3);;
+}
+#music_title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7vw;
+    color:#F60588;
+}
+#music_sub{
+    text-align: center;
+    font-size: 3vw;
+    opacity: 0.7;
+    margin-bottom: 5vw;
+}
+#music_cats{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+    margin-bottom: 2vw;
+}
+.music_cat{
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 35vw;
+    width: 35vw;
+    border-radius: 2vw;
+    cursor: url("pointer.png"), auto;
+}
+#good_music{
+    background: #eef2f3;
+    transition: height 0.3s ease-in-out;
+}
+#bad_music{
+    background:#010A08;
+    transition: height 0.3s ease-in-out;
+}
+#bad_music:hover{
+    height: 38vw;
+}
+#good_music:hover{
+    height: 38vw;
+}
+#good_music_icon{
+    height: auto;
+    width: 20vw;
+    margin-top: 7vw;
+}
+.music_type{
+    color: white;
+    font-size: 3vw;
+    margin-bottom: 0;
+
+}
+#overlay{
+    position: absolute;
+    inset: 0; /* remplace top/bottom/left/right par 0 */
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+
+}
+#wrn{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 32vw;
+    width: 32vw;
+    max-width: 600px;
+    max-height: 600px;
+    background-color: white;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vw;
+    padding: 2vw;
+}
+#wrn_title{
+  font-family: 'Ruwudu';
+  justify-self: center;
+  font-size: 2vw;
+  color: red;
+}
+#wrn_content{
+  font-size: 2vw;
+  margin-bottom: 2vw;
+  font-family: 'Ruwudu';
+  color: black;
+}
+#acpt{
+  font-size: 3vw;
+  font-family: 'Ruwudu';
+  background: black;
+  color: white;
+  border-radius: 0;
+  border-style: none;
+  cursor: url("ss.png"), auto;
+}
+#acpt:hover{
+  color: red;
+}
+#close{
+  font-size: 3vw;
+  margin: 0;
+  margin-left: 26vw;
+}
+#close:hover{
+  color: red;
 }

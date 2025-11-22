@@ -1,0 +1,16 @@
+html{
+  background-color: black;
+  cursor: url("../../ss.png"), auto;
+}
+@font-face {
+  font-family: 'gangsa';
+  src: url('gangsa.otf') format('opentype');
+  font-weight: normal; /* Adjust if your font has different weights */
+  font-style: normal;
+}
+#test{
+  color: white;
+  font-family: 'gangsa';
+  text-align: center;
+  font-size: 5vw;
+}
